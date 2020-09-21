@@ -1,3 +1,5 @@
+/* eslint-disable import/no-named-as-default */
+/* eslint-disable import/no-named-as-default-member */
 /* eslint-disable react/jsx-filename-extension */
 import React from 'react';
 
@@ -8,9 +10,7 @@ function App() {
   return (
     <div className={styles.App}>
       <p>
-        Hello here is the class name :
-        {' '}
-        {styles.App}
+        Welcome to this Wonderful App
       </p>
       <BurgerBuilder />
     </div>
